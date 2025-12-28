@@ -27,11 +27,6 @@ github_username: belay-cell
 # flickr_username: jekyll
 # instagram_username: jekyll
 # linkedin_username: your_linkedin
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: jekyll
-# orcid_username: 0000-0000-0000-0000
-# googlescholar_username: your_scholar_id
 
 # Additional icon links
 # additional_links:
@@ -48,7 +43,7 @@ github_username: belay-cell
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Graduate student at KAIST pursuing research in AI/ML, Computer Vision, and Brain & Cognitive Sciences.
+  Bachelor's student at KAIST studying Computer Science with a focus on AI/ML, Computer Vision, and Brain & Cognitive Sciences.
   
   Specializing in:
   - Deep Learning and Generative Models (VAE, GAN, Diffusion Models)
@@ -63,39 +58,46 @@ content:
       - layout: left
         title: Decision Brain Dynamics Lab, KAIST
         sub_title: Research Intern
-        caption: Jul 2025 - Present
+        caption: July 2025 - Present
+        link: https://raphe.kaist.ac.kr
         description: |
-          - fMRI/EEG to Natural Language Decoding
-          - Brain-to-text reconstruction using transformers
+          - Conducting fMRI to Natural Language Decoding research focusing on non-invasive brain-to-language translation models
+          - Working on improving semantic and temporal alignment between EEG signals and linguistic embeddings for continuous language reconstruction
+          - Developing deep learning pipelines integrating transformer-based semantic decoders, temporal convolutional encoders, and cross-modal attention mechanisms
+          - Exploring multi-region EEG signal representations to model distributed cortical contributions to semantic comprehension
           
       - layout: left
         title: Multi-Modal AI Lab, KAIST
         sub_title: Research Intern
-        caption: Dec 2024 - Aug 2025
+        caption: Dec 2024 - August 2025
+        link: https://mm.kaist.ac.kr
         description: |
-          - Implemented SOTA generative models: VAE, GAN, VQ-GAN, StyleGAN, DDPM
-          - Research on diffusion models and generative AI
+          - Implemented and presented many SOTA generative models including VAE, β-VAE, GAN, VQ-VAE, VQ-GAN, StyleGAN-1/2, WGAN, CycleGAN, StarGAN, WGAN-GP
+          - Worked on DDPM (Denoising Diffusion Probabilistic Model), DDIM, Diffusion Models Beat GANs on Image Synthesis, Classifier-Free Diffusion Guidance
 
   - title: Education
     layout: list
     content:
       - layout: left
         title: KAIST
-        sub_title: MS Computer Science (Major), AI (Minor), Brain & Cognitive Sciences (Double Major)
-        caption: Aug 2022 - Present
+        sub_title: Bachelor of Science in Computer Science
+        caption: August 2022 - Present (Senior)
         description: |
-          Relevant Coursework:
-          - Introduction to Deep Learning
-          - Machine Learning
-          - Computer Vision
-          - Data Structures & Algorithms
+          **Majors:** Computer Science (Major), Individually Designed AI Major (Minor), Brain and Cognitive Sciences (Double Major)
+          
+          **Relevant Coursework:**
+          - Introduction to Deep Learning, Machine Learning, Machine Learning for Computer Vision, Deep Learning for Computer Vision
+          - Data Structures, Data Structures and Algorithms for Electrical Engineering
+          - AI and Brain, Systems Neuroscience, Biology of Neurons, Introduction to Cognitive Neuroscience
+          - Database, Kaggle Computer Vision, Machine Learning for 3D Data
+          - Introduction to Reinforcement Learning, Discrete Mathematics, Linear Algebra
 
   - title: Projects
     layout: list
     content:
       - layout: left
         border: weak
-        title: Neural Machine Translation
+        title: Neural Machine Translation (LSTM, Attention, Transformer)
         link: https://github.com/belay-cell
         link_text: GitHub Repo
         additional_links:
@@ -103,13 +105,40 @@ content:
             icon: fab fa-github
             url: https://github.com/belay-cell
         description: |
-          LSTM, Attention, and Transformer models for NMT on Multi30k dataset
-          - Custom LSTMCell and Multi-head Attention implementation
-          - Achieved competitive BLEU scores
+          - Implemented Neural Machine Translation models using LSTM, Attention-based LSTM, and Transformer architectures on Multi30k dataset (German-English)
+          - Custom implementations of LSTMCell, Multi-head Attention, achieving competitive BLEU scores
           
       - layout: left
         border: weak
-        title: VQ-GAN Implementation
+        title: Face Recognition (PCA, LDA, Ensemble Learning, Random Forests)
+        link: https://github.com/belay-cell
+        link_text: GitHub Repo
+        additional_links:
+          - title: belay-cell/face-recognition
+            icon: fab fa-github
+            url: https://github.com/belay-cell
+        description: |
+          - Developed face recognition models using PCA, LDA, and ensemble learning techniques
+          - Explored dimensionality reduction, generative-discriminative subspace learning, Random Forest and multi-class SVM
+          - Achieved high recognition accuracy through optimized PCA-LDA ensembles
+          
+      - layout: left
+        border: weak
+        title: Semantic Segmentation using FCN & CNN Image Classification
+        link: https://github.com/belay-cell
+        link_text: GitHub Repo
+        additional_links:
+          - title: belay-cell/fcn-segmentation
+            icon: fab fa-github
+            url: https://github.com/belay-cell
+        description: |
+          - Semantic segmentation on PASCAL VOC 2011 dataset with 20 object categories using Fully Convolutional Networks
+          - Utilized Semantic Boundaries Dataset (SBD) for enhanced segmentation performance
+          - Classified CIFAR10 dataset into 10 categories using CNNs
+          
+      - layout: left
+        border: weak
+        title: VQ-GAN (Vector-Quantized GAN)
         link: https://github.com/belay-cell
         link_text: GitHub Repo
         additional_links:
@@ -117,13 +146,27 @@ content:
             icon: fab fa-github
             url: https://github.com/belay-cell
         description: |
-          Vector Quantized GAN for high-resolution image synthesis
-          - Based on CVPR 2021 paper
-          - Discrete codebook for efficient representation
+          - Implemented two-stage VQGAN Transformer model in PyTorch learning discrete image codebook with adversarial training
+          - Autoregressively models latent tokens for high-resolution image synthesis
+          - Following Esser et al., Taming Transformers for High-Resolution Image Synthesis (CVPR 2021)
           
       - layout: left
         border: weak
-        title: PointNet for 3D Point Clouds
+        title: Deep Face Recognition with Metric Learning
+        link: https://github.com/belay-cell
+        link_text: GitHub Repo
+        additional_links:
+          - title: belay-cell/metric-learning-face
+            icon: fab fa-github
+            url: https://github.com/belay-cell
+        description: |
+          - Designed lightweight face recognition system (11.5M parameters) using PyTorch and ResNet18
+          - Developed flexible training framework supporting classification-based (Softmax) and metric-based (Triplet loss) functions
+          - Implemented mixed-precision training and multi-GPU support
+          
+      - layout: left
+        border: weak
+        title: PointNet - Deep Learning on 3D Point Clouds
         link: https://github.com/belay-cell
         link_text: GitHub Repo
         additional_links:
@@ -131,13 +174,27 @@ content:
             icon: fab fa-github
             url: https://github.com/belay-cell
         description: |
-          3D point cloud classification and segmentation
-          - ModelNet40 and ShapeNet datasets
-          - PyTorch implementation
+          - Implemented PointNet-based architectures for 3D point cloud classification, part segmentation, and auto-encoding
+          - Used ModelNet40 and ShapeNet Part datasets with custom PyTorch pipelines
+          - Following Qi et al., PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation
           
       - layout: left
         border: weak
-        title: ChromaDB + LangChain RAG System
+        title: NeRF - Neural Radiance Fields for 3D Scene Reconstruction
+        link: https://github.com/belay-cell
+        link_text: GitHub Repo
+        additional_links:
+          - title: belay-cell/nerf
+            icon: fab fa-github
+            url: https://github.com/belay-cell
+        description: |
+          - Implemented Neural Radiance Fields (NeRF) for novel 3D view synthesis from 2D images
+          - Following Ben Mildenhall et al., ECCV 2020
+          - Trained and rendered complex scenes using volumetric rendering with PyTorch
+          
+      - layout: left
+        border: weak
+        title: Vector Database - ChromaDB & LangChain RAG
         link: https://github.com/belay-cell
         link_text: GitHub Repo
         additional_links:
@@ -145,21 +202,20 @@ content:
             icon: fab fa-github
             url: https://github.com/belay-cell
         description: |
-          Semantic search QA system using vector databases
-          - HuggingFace embeddings integration
-          - LLM-powered retrieval augmented generation
+          - Implemented RAG systems using ChromaDB and LangChain for intelligent document question-answering
+          - Features HuggingFace embeddings (all-MiniLM-L6-v2) for semantic search and LLM-based contextual answer generation
+          - Built technical documentation QA system and OpenBookQA scientific knowledge retrieval platform
 
   - title: Skills
     layout: text
     content: |
-      - **Programming**: Python, PyTorch, TensorFlow, MATLAB, SQL
-      - **ML/AI**: Deep Learning, Computer Vision, NLP, Generative Models
-      - **Tools**: Git, Linux, HTML/CSS, Vector Databases
+      - **Programming Languages**: Python, PyTorch, TensorFlow, Java
+      - **Tools and Technologies**: MATLAB, Deep Learning, Machine Learning, HTML/CSS
       
-  - title: Honors & Awards
+  - title: Awards & Certificates
     layout: text
     content: |
-      - Gold Honor, International Youth Math Challenge-Olympiad (National Award of Ethiopia)
+      - **Gold Honor** in International Youth Math Challenge-Olympiad (IYMC) - National Award of Ethiopia
 
 # Footer
 footer_show_references: false
