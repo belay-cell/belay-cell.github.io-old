@@ -7,6 +7,31 @@ meta_description: Resume - Belay Zeleke | AI/ML Researcher | Deep Learning & Bra
 keywords: Belay Zeleke resume, AI researcher, machine learning, deep learning, brain-computer interfaces, KAIST, EEG, fMRI
 ---
 
+
+<div class="custom-header" style="background: #FAF3E0; padding: 1rem 0; border-bottom: 1px solid #D6C6A9; position: fixed; top: 0; left: 0; right: 0; z-index: 1000;">
+  <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 2rem;">
+    <div style="display: flex; align-items: center; gap: 1rem;">
+      <a href="/" style="text-decoration: none; color: #3A2C29; font-weight: 600; font-size: 1.1rem;">Normal(0,1) Website</a>
+      <span style="color: #D95F18; cursor: pointer;">🌙</span>
+    </div>
+    <img src="/images/profile.jpg" alt="Avatar" style="width: 80px; height: 80px; border-radius: 50%; position: absolute; left: 50%; transform: translateX(-50%);" />
+    <nav style="display: flex; gap: 2rem;">
+      <a href="/aboutme" style="text-decoration: none; color: #3A2C29; font-weight: 500;">ABOUT ME</a>
+      <a href="/resume" style="text-decoration: none; color: #3A2C29; font-weight: 500;">RESUME</a>
+      <a href="/projects" style="text-decoration: none; color: #3A2C29; font-weight: 500;">PROJECTS</a>
+      <a href="/education" style="text-decoration: none; color: #3A2C29; font-weight: 500;">EDUCATION</a>
+      <a href="/research" style="text-decoration: none; color: #3A2C29; font-weight: 500;">RESEARCH</a>
+      <a href="/blog" style="text-decoration: none; color: #3A2C29; font-weight: 500;">BLOG</a>
+      <span style="cursor: pointer; color: #3A2C29;">🔍</span>
+    </nav>
+  </div>
+</div>
+
+<div style="padding-top: 120px;">
+  <h1 style="text-align: center; font-size: 3.5rem; margin-bottom: 0.5rem; color: #3A2C29;">Resume</h1>
+  <div style="width: 80px; height: 3px; background: #3A2C29; margin: 0 auto 1rem;"></div>
+  <p style="text-align: center; color: #6D5A4D; font-size: 1.1rem; margin-bottom: 2rem;">Minimalistic Resume</p>
+</div>
 <div class="resume-container">
 
 <div class="interest-card">
